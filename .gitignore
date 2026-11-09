@@ -1,15 +1,27 @@
-*.pdf
+# VSCode uporabniške nastavitve
+.vscode/
+
+# LaTeX
 *.aux
-*.fls
-*.log
-*.synctex.gz
-*.fdb_latexmk
-*.zip
-*.toc
 *.bbl
 *.blg
-*.out
-*.bcf
-*.run.xml
+*.fdb_latexmk
+*.toc
+*.fls
+*.log
 *.nav
+*.out
+*.pdf
+*.pyc
 *.snm
+*.synctex.gz
+
+# MacOS
+__MACOSX
+.DS_Store
+
+# Windows
+thumbs.db
+
+# Python
+__pycache__
